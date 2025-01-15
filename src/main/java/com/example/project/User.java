@@ -39,6 +39,13 @@ public class User{
     //returns a booklist for the user, if empty, output "empty"
     public String bookListInfo() {
         String str = "";
+        for (int i = 0; i < book.length; i++) {
+            if (book[i] == null) {
+                str += "\nempty";
+            }
+            else {str += "\n" + book[i].bookInfo();}
+        }
+        str += "\n";
         return str;
     } 
 
@@ -46,7 +53,7 @@ public class User{
     public String userInfo() {
         String str = "";
         str += "Name: " + name
-        + "\nID: " + Id
+        + "\nId: " + Id
         + "\nBooks: " + bookListInfo();
         return str;
     } 

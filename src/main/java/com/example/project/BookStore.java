@@ -38,6 +38,7 @@ public class BookStore {
             if (users[i] == user) {
                 // end loop after user is removed
                 users[i] = null;
+                consolidateUsers();
                 break;
             }
         }
