@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.project.TestUser" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-01-15T14:30:08" hostname="codespaces-7540a6" time="0.031">
+<testsuite name="com.example.project.TestUser" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-01-28T02:05:45" hostname="codespaces-7540a6" time="0.054">
   <properties/>
-  <testcase name="testUserConstructor()" classname="com.example.project.TestUser" time="0.028"/>
-  <testcase name="testUserInfo()" classname="com.example.project.TestUser" time="0.002"/>
+  <testcase name="testUserConstructor()" classname="com.example.project.TestUser" time="0.051"/>
+  <testcase name="testUserInfo()" classname="com.example.project.TestUser" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
